@@ -566,8 +566,8 @@ img {
   width: 100%;
   height: 100%;
   opacity: 0.5;
-  /* visibility: hidden;
-  pointer-events: none; */
+  visibility: hidden;
+  pointer-events: none;
 }
 .modal {
 }
