@@ -581,13 +581,19 @@ img {
   line-height: 2;
   letter-spacing: 0.04em;
   color: #fff;
-
+  padding-left: 16px;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .footer-input:placeholder {
   color: #fff;
+}
+.footer-btn {
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
 }
 
 /* SUBSCRIBE 2*/
