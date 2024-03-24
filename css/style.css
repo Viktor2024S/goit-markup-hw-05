@@ -552,8 +552,6 @@ a::after {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  /*  */
-  padding-right: 50px;
 }
 
 img {
