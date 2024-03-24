@@ -571,6 +571,8 @@ img {
 .footer-form {
   display: flex;
   gap: 24px;
+  width: 453px;
+  height: 80px;
 }
 .footer-input {
   width: 264px;
