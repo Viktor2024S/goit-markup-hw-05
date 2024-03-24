@@ -572,8 +572,8 @@ img {
   display: flex;
   gap: 24px;
   /* Change */
-  width: 453px;
-  height: 80px;
+  /* width: 453px;
+  height: 80px; */
 }
 .footer-input {
   width: 264px;
@@ -622,6 +622,9 @@ img {
 
 .footer-btn icon {
   margin-left: 16px;
+}
+
+.footer-wrap {
 }
 
 /* ===============SUBSCRIBE zero====================*/
