@@ -601,6 +601,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #4d5ae5;
+
   flex-direction: row;
   gap: 16px;
 
