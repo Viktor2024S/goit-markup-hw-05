@@ -594,14 +594,21 @@ img {
   padding: 8px 24px;
   width: 165px;
   height: 40px;
-}
-.footer-btn {
+
   min-width: 165px;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #4d5ae5;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
 
   flex-direction: row;
   gap: 16px;
