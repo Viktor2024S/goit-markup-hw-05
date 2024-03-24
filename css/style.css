@@ -595,8 +595,19 @@ img {
   width: 165px;
   height: 40px;
 }
+.footer-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
 
-/* SUBSCRIBE 2*/
+  border-radius: 4px;
+  padding: 8px 24px;
+}
+/* SUBSCRIBE zero*/
 
 /* .footer-form {
   width: 453px;
