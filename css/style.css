@@ -638,51 +638,6 @@ img {
 .footer-wrap {
 }
 
-/* ===============SUBSCRIBE zero====================*/
-
-/* .footer-form {
-  width: 453px;
-  height: 80px;
-  padding-left: 80px;
-  padding-top: 100px;
-  display: flex;
-  align-items: top;
-  justify-content: center;
-  gap: 4px;
-}
-
-.footer-input {
-  width: 264px;
-  height: 40px;
-  border: 1px solid #fff;
-  border-radius: 4px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-}
-
-.subscribe-button {
-  background-color: #4d5ae5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 16px;
-
-  
-  border-radius: 4px;
-  padding: 8px 24px;
-  width: 165px;
-  height: 40px;
-}
-
-.subsribe-text {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  text-align: center;
-  color: #fff;
-} */
-
 .footer-form-btn {
 }
 .icon-button-subscibe {
@@ -738,7 +693,7 @@ img {
   right: 24px;
   width: 24px;
   height: 24px;
-  /* border-radius: 4px; ?????????????    background-color: #e7e9fc;    */
+
   border-radius: 50%;
   display: flex;
   align-items: center;
