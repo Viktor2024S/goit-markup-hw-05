@@ -522,7 +522,7 @@
     </footer>
 
     <!-- Modal window with backdrop -->
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg class="icon icon-modal" width="8" height="8">
@@ -548,12 +548,13 @@
                 <use href="./images/icons.svg#icon-user"></use>
               </svg>
             </div>
-
-            <!-- phone -->
+          </div>
+          <!-- phone -->
+          <div class="modal-field">
             <label for="user-phone" class="modal-label">Phone</label>
             <div class="modal-input-wrap">
               <input
-                type="tel"
+                type="text"
                 title="+380 (96) 111-11-11"
                 value="+380"
                 name="user-email"
@@ -561,12 +562,14 @@
                 id="user-phone"
                 required
               />
-              <svg class="modal-icon" width="24" height="24">
+              <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
+          </div>
 
-            <!-- email -->
+          <!-- email -->
+          <div class="modal-field">
             <label class="modal-label" for="user-email">Email</label>
             <div class="modal-input-wrap">
               <input
@@ -576,22 +579,41 @@
                 id="user-email"
                 required
               />
-              <svg class="modal-icon" width="24" height="24">
+              <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
-
-            <!-- comment -->
-            <label class="modal-label" for="user-email">User comment</label>
+          </div>
+          <!-- comment -->
+          <div class="modal-field">
+            <label class="modal-label" for="user-comment">Comment</label>
             <div class="modal-input-wrap">
               <textarea
                 name="user-comment"
-                class="modal-input"
+                class="modal-input modal-comment"
                 id="user-comment"
                 placeholder="Text input"
               ></textarea>
             </div>
           </div>
+          <!-- checkbox -->
+          <div class="modal-checkbox visually-hidden">
+            <input
+              class="user-privacy"
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
+            />
+            <label class="modal-label modal-label-checkbox" for="user-privacy"
+              ><span class="span-checkbox"
+                ><svg class="modal-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-close"></use></svg></span
+              >I accept the terms and conditions of the
+              <a class="modal-checkbox-link" href="">Privacy Policy</a></label
+            >
+          </div>
+          <button class="modal-submit-btn" type="submit"></button>
         </form>
       </div>
     </div>
