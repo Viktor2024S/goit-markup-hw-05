@@ -573,17 +573,13 @@ img {
   letter-spacing: 0.02em;
   color: #fff;
 }
-/* ====== Changes for repaire (1)====== */
+
 .footer-form-wrap {
   margin-left: auto;
 }
 .footer-form {
   display: flex;
-
   gap: 24px;
-  /* Change */
-  /* width: 453px;
-  height: 80px; */
 }
 .footer-input {
   width: 264px;
@@ -622,13 +618,7 @@ img {
   text-align: center;
   color: #fff;
   cursor: pointer;
-
-  /* flex-direction: row; */
-  /* 1 */
-  /* gap: 16px; */
   border: none;
-  /* border-radius: 4px;
-  padding: 8px 24px; */
 }
 
 .footer-btn .icon {
@@ -654,7 +644,7 @@ img {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  opacity: 0;
   /* =========HIDE=========== */
   /* ------------------------ */
   /* opacity: 0;
