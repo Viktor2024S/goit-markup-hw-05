@@ -807,6 +807,9 @@ img {
   margin-bottom: 24px;
 }
 
+.modal-checkbox {
+  margin-bottom: 24px;
+}
 .modal-label-checkbox {
   font-weight: 400;
   font-size: 12px;
