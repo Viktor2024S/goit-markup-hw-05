@@ -746,12 +746,12 @@ img {
   color: #2e2f42;
   margin-bottom: 16px;
 }
-.title {
-}
-.modal-form {
-}
+
 .modal-field {
-  /* margin-bottom: 8px; */
+  margin-bottom: 8px;
+}
+
+.modal-field-comment {
   margin-bottom: 16px;
 }
 .modal-label {
