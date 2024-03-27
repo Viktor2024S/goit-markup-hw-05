@@ -888,6 +888,6 @@ img {
   fill: #4d5ae5;
 } */
 
-#user-name:focus > .modal-form-icon {
+#user-name:focus + .modal-form-icon {
   fill: #4d5ae5;
 }
