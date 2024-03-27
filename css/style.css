@@ -725,6 +725,10 @@ img {
 }
 .modal-icon-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* Changes after everything is almost)) corrected */
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
 /* repairing is here */
 /* .modal-close-btn:hover + .modal-icon-close,
